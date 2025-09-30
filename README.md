@@ -6,7 +6,7 @@
 
 A comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) providing access to over 60 endpoints including image manipulation, meme generation, data retrieval, text utilities, and more.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -38,19 +38,19 @@ print(f"Joke: {joke}")
 print(f"Fact: {fact}")
 ```
 
-## 📚 Features
+## Features
 
-- **🎨 Image Manipulation**: Apply filters and effects (jail, blur, colorify, etc.)
-- **😂 Meme Generation**: Create popular meme formats (Drake, Pooh, Supreme, etc.)
-- **📊 Data APIs**: Access real-world data (weather, GitHub, Steam, etc.)
-- **🔤 Text Utilities**: Transform text (translate, morse code, reverse, etc.)
-- **🎲 Random Content**: Get jokes, facts, shower thoughts, and more
-- **🛠️ Utilities**: Screenshots, lyrics, chatbot, welcome cards
-- **🏗️ Specialized Classes**: Code paste creation and URL shortening
+- **Image Manipulation**: Apply filters and effects (jail, blur, colorify, etc.)
+- **Meme Generation**: Create popular meme formats (Drake, Pooh, Supreme, etc.)
+- **Data APIs**: Access real-world data (weather, GitHub, Steam, etc.)
+- **Text Utilities**: Transform text (translate, morse code, reverse, etc.)
+- **Random Content**: Get jokes, facts, shower thoughts, and more
+- **Utilities**: Screenshots, lyrics, chatbot, welcome cards
+- **Specialized Classes**: Code paste creation and URL shortening
 
-## 📖 Complete Endpoint Reference
+## Complete Endpoint Reference
 
-### 🎨 Image Manipulation (14 functions)
+### Image Manipulation (14 functions)
 
 Transform and apply effects to images. All functions return image URLs.
 
@@ -95,7 +95,7 @@ mnm_style = popcat.mnm("https://example.com/face.jpg")
 - `jokeoverhead(image)` - Joke over head meme
 - `mnm(image)` - M&M style meme
 
-### 😂 Meme Generation (18 functions)
+### Meme Generation (18 functions)
 
 Create popular meme formats with custom text and images.
 
@@ -156,7 +156,7 @@ caution_sign = popcat.caution("Wet Floor")
 - `alert(text)` - Warning alert sign
 - `caution(text)` - Caution sign
 
-### 📊 Data & Information APIs (11 functions)
+### Data & Information APIs (11 functions)
 
 Access real-world data and information. All functions return dictionaries.
 
@@ -196,7 +196,7 @@ random_color = popcat.randomcolor()
 - `subreddit(subreddit_name)` - Reddit subreddit data
 - `itunes(song)` - iTunes song search
 
-### 🔤 Text Utilities (7 functions)
+### Text Utilities (7 functions)
 
 Transform and manipulate text in various ways.
 
@@ -222,7 +222,7 @@ double_struck = popcat.doublestruck("Hello")  # "ℍ𝕖𝕝𝕝𝕠"
 - `encode(text)` - Encode to binary
 - `decode(binary)` - Decode from binary
 
-### 🎲 Random Content (7 functions)
+### Random Content (7 functions)
 
 Get random entertainment content for fun and engagement.
 
@@ -253,7 +253,7 @@ print(f"Random meme: {meme_data['title']}")
 - `wouldyourather()` - Would you rather question
 - `eightball()` / `_8ball()` - Magic 8-ball response
 
-### 🛠️ Utilities (4 functions)
+### Utilities (4 functions)
 
 General-purpose utility functions for various needs.
 
@@ -284,7 +284,7 @@ welcome_img = popcat.welcomecard(
 - `chatbot(message, ownername, botname)` - AI chatbot
 - `welcomecard(background, avatar, text_1, text_2, text_3)` - Welcome card
 
-### 🏗️ Specialized Classes (2 classes)
+### Specialized Classes (2 classes)
 
 Advanced services with full-featured class interfaces.
 
@@ -329,7 +329,7 @@ print(f"Original: {info['original_url']}")
 print(f"Clicks: {info['clicks']}")
 ```
 
-## 🔧 Installation & Requirements
+## Installation & Requirements
 
 ### Requirements
 - Python 3.7+
@@ -357,7 +357,7 @@ pip install popcat-wrapper[dev]
 pip install popcat-wrapper[test]
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Discord Bot Integration
 
@@ -467,7 +467,7 @@ weather_df = pd.DataFrame(weather_data)
 print(weather_df)
 ```
 
-## 🔐 Authentication & Rate Limits
+## Authentication & Rate Limits
 
 ### API Keys
 - **CodeClient**: Requires an API key for code paste creation
@@ -497,7 +497,7 @@ def rate_limited_request(func, *args, delay=1, **kwargs):
 meme = rate_limited_request(popcat.drake, "Fast requests", "Rate limited requests")
 ```
 
-## 🧪 Error Handling
+## Error Handling
 
 The package includes comprehensive error handling:
 
@@ -526,9 +526,9 @@ def safe_meme_generation(text1, text2):
         return popcat.supreme(text1)  # Fallback to different meme
 ```
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Here's how to get started:
+We welcome contributions. Please follow these guidelines:
 
 ### Development Setup
 
@@ -613,7 +613,7 @@ flake8 popcat_wrapper/
 mypy popcat_wrapper/
 ```
 
-## 📋 Changelog
+## Changelog
 
 ### v1.0.0 (2023-01-15)
 - Initial release
@@ -627,11 +627,11 @@ mypy popcat_wrapper/
 - Core functionality implemented
 - Basic documentation
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Links
+## Links
 
 - **PyPI**: https://pypi.org/project/popcat-wrapper/
 - **GitHub**: https://github.com/LandWarderer2772/popcat-wrapper
@@ -639,16 +639,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Popcat API**: https://popcat.xyz/api
 - **Issues**: https://github.com/LandWarderer2772/popcat-wrapper/issues
 
-## 💖 Support
+## Support
 
 If you find this package helpful, consider:
-- ⭐ Starring the repository
-- 🐛 Reporting bugs
-- 💡 Suggesting new features
-- 🤝 Contributing code
-- 📢 Sharing with others
+- Starring the repository
+- Reporting bugs
+- Suggesting new features
+- Contributing code
+- Sharing with others
 
-## 📞 Contact
+## Contact
 
 - **Email**: mh3as81gb@mozmail.com
 - **Discord**: land_lmao
@@ -656,4 +656,4 @@ If you find this package helpful, consider:
 
 ---
 
-Made with ❤️ for the Python community. Happy coding! 🐍✨
+Developed for the Python community. Professional API wrapper solution.
