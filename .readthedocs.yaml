@@ -10,10 +10,6 @@ build:
   tools:
     python: "3.11"
   jobs:
-    post_checkout:
-      # Download and uncompress the binary
-      # https://git-lfs.github.io/
-      - git lfs pull
     post_install:
       # Install poetry
       - pip install poetry
