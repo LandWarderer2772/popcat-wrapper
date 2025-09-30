@@ -4,18 +4,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="popcat-wrapper",
+    name="popcatapi-wrapper",
     version="1.0.0",
     author="land_lmao",
     author_email="mh3as81gb@mozmail.com",
     description="A comprehensive Python wrapper for the Popcat API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/LandWarderer2772/popcat-wrapper",
+    url="https://github.com/LandWarderer2772/popcatapi-wrapper",
     project_urls={
-        "Bug Tracker": "https://github.com/LandWarderer2772/popcat-wrapper/issues",
-        "Documentation": "https://popcat-wrapper.readthedocs.io/",
-        "Source Code": "https://github.com/LandWarderer2772/popcat-wrapper",
+        "Bug Tracker": "https://github.com/LandWarderer2772/popcatapi-wrapper/issues",
+        "Documentation": "https://popcatapi-wrapper.readthedocs.io/",
+        "Source Code": "https://github.com/LandWarderer2772/popcatapi-wrapper",
         "Popcat API": "https://popcat.xyz/api"
     },
     packages=find_packages(),

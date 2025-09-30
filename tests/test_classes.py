@@ -4,7 +4,7 @@ Test cases for specialized classes (CodeClient and Shortener).
 
 import pytest
 import responses
-from popcat_wrapper.classes import CodeClient, Shortener
+from popcatapi_wrapper.classes import CodeClient, Shortener
 
 
 class TestCodeClient:

@@ -1,6 +1,6 @@
 # Examples
 
-Comprehensive examples for using Popcat Wrapper in real applications.
+Comprehensive examples for using PopcatAPI Wrapper in real applications.
 
 ## Discord Bot Integration
 
@@ -9,7 +9,7 @@ Comprehensive examples for using Popcat Wrapper in real applications.
 ```python
 import discord
 from discord.ext import commands
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 
 bot = commands.Bot(command_prefix='!')
 
@@ -85,7 +85,7 @@ async def ship(ctx, user1: discord.Member, user2: discord.Member):
 
 ```python
 from flask import Flask, jsonify, request
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 
 app = Flask(__name__)
 
@@ -132,9 +132,9 @@ if __name__ == '__main__':
 ```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 
-app = FastAPI(title="Popcat Wrapper API")
+app = FastAPI(title="PopcatAPI Wrapper API")
 
 class DrakeMemeRequest(BaseModel):
     text1: str
@@ -175,7 +175,7 @@ async def get_weather(location: str):
 ### GitHub User Analysis
 
 ```python
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -235,7 +235,7 @@ print(results)
 ### Weather Dashboard
 
 ```python
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 ### Daily Content Generator
 
 ```python
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 import schedule
 import time
 from datetime import datetime
@@ -337,7 +337,7 @@ while True:
 ### Bulk Image Processing
 
 ```python
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 import os
 from concurrent.futures import ThreadPoolExecutor
 import time

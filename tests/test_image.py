@@ -4,7 +4,7 @@ Test cases for image manipulation functions.
 
 import pytest
 import responses
-from popcat_wrapper import image
+from popcatapi_wrapper import image
 
 
 class TestImageManipulation:

@@ -1,6 +1,6 @@
-# Popcat Wrapper Documentation
+# PopcatAPI Wrapper Documentation
 
-Welcome to the **Popcat Wrapper** documentation! This is a comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) providing access to over 60 endpoints.
+Welcome to the **PopcatAPI Wrapper** documentation! This is a comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) providing access to over 60 endpoints.
 
 ```{toctree}
 :maxdepth: 2
@@ -26,7 +26,7 @@ changelog
 ## Quick Example
 
 ```python
-import popcat_wrapper as popcat
+import popcatapi_wrapper as popcat
 
 # Generate a meme
 drake_meme = popcat.drake("Using other APIs", "Using Popcat API")
@@ -41,7 +41,7 @@ jail_image = popcat.jail("https://example.com/image.png")
 ## Installation
 
 ```bash
-pip install popcat-wrapper
+pip install popcatapi-wrapper
 ```
 
 ## Indices and tables

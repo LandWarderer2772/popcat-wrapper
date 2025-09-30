@@ -4,7 +4,7 @@ Test cases for data API functions.
 
 import pytest
 import responses
-from popcat_wrapper import data
+from popcatapi_wrapper import data
 
 
 class TestDataAPIs:

@@ -4,7 +4,7 @@ Test cases for meme generation functions.
 
 import pytest
 import responses
-from popcat_wrapper import meme
+from popcatapi_wrapper import meme
 
 
 class TestMemeGeneration:

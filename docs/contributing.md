@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome contributions to the Popcat Wrapper! Here's how you can help.
+We welcome contributions to the PopcatAPI Wrapper! Here's how you can help.
 
 ## Development Setup
 
@@ -13,8 +13,8 @@ We welcome contributions to the Popcat Wrapper! Here's how you can help.
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/LandWarderer2772/popcat-wrapper.git
-   cd popcat-wrapper
+   git clone https://github.com/LandWarderer2772/popcatapi-wrapper.git
+   cd popcatapi-wrapper
    ```
 
 2. **Create a virtual environment**:
@@ -48,13 +48,13 @@ Run these before submitting:
 
 ```bash
 # Format code
-black popcat_wrapper/ tests/
+black popcatapi_wrapper/ tests/
 
 # Check linting
-flake8 popcat_wrapper/ tests/
+flake8 popcatapi_wrapper/ tests/
 
 # Type checking
-mypy popcat_wrapper/
+mypy popcatapi_wrapper/
 
 # Run tests
 pytest tests/ -v
@@ -151,7 +151,7 @@ pytest
 pytest tests/test_image.py
 
 # Run with coverage
-pytest --cov=popcat_wrapper
+pytest --cov=popcatapi_wrapper
 
 # Run integration tests (requires internet)
 pytest tests/integration/ -m integration
@@ -194,8 +194,8 @@ Run integration tests with: `pytest -m integration`
 3. **Test your changes**:
    ```bash
    pytest tests/
-   black popcat_wrapper/ tests/
-   flake8 popcat_wrapper/ tests/
+   black popcatapi_wrapper/ tests/
+   flake8 popcatapi_wrapper/ tests/
    ```
 
 4. **Commit with clear messages**:
@@ -268,7 +268,7 @@ For maintainers:
 
 ## Getting Help
 
-- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/popcat-wrapper/issues)
+- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/popcatapi-wrapper/issues)
 - **Discord**: Contact land_lmao
 - **Email**: mh3as81gb@mozmail.com
 
@@ -284,4 +284,4 @@ Contributors will be:
 - **Mentioned in release notes**
 - **Given credit in documentation**
 
-Thank you for contributing to Popcat Wrapper! 🎉
+Thank you for contributing to PopcatAPI Wrapper! 🎉

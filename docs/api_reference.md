@@ -1,11 +1,11 @@
 # API Reference
 
-Complete reference for all Popcat Wrapper functions and classes.
+Complete reference for all PopcatAPI Wrapper functions and classes.
 
 ## Image Manipulation
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.image
+.. automodule:: popcatapi_wrapper.image
    :members:
    :undoc-members:
    :show-inheritance:
@@ -14,7 +14,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Meme Generation
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.meme
+.. automodule:: popcatapi_wrapper.meme
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Data APIs
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.data
+.. automodule:: popcatapi_wrapper.data
    :members:
    :undoc-members:
    :show-inheritance:
@@ -32,7 +32,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Text Utilities
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.text
+.. automodule:: popcatapi_wrapper.text
    :members:
    :undoc-members:
    :show-inheritance:
@@ -41,7 +41,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Random Content
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.random
+.. automodule:: popcatapi_wrapper.random
    :members:
    :undoc-members:
    :show-inheritance:
@@ -50,7 +50,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Utilities
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.utilities
+.. automodule:: popcatapi_wrapper.utilities
    :members:
    :undoc-members:
    :show-inheritance:
@@ -59,7 +59,7 @@ Complete reference for all Popcat Wrapper functions and classes.
 ## Specialized Classes
 
 ```{eval-rst}
-.. automodule:: popcat_wrapper.classes
+.. automodule:: popcatapi_wrapper.classes
    :members:
    :undoc-members:
    :show-inheritance:
