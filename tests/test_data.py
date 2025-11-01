@@ -3,11 +3,14 @@ Tests for data module functions.
 """
 
 import unittest
+import popcat
 from unittest.mock import patch, Mock
 from popcat import data
+import pytest
+import responses
 
 
-class TestDataAPIs:
+class TestDataAPIs(unittest.TestCase):
     """Test cases for data API functions."""
     
     @responses.activate
@@ -207,14 +210,27 @@ class TestDataAPIs:
         assert isinstance(result, dict)
         assert "name" in result
     
+    @responses.activate
     def test_subreddit_removes_prefix(self):
         """Test that r/ prefix is removed from subreddit names."""
-        # This test doesn't need a mock since we're testing input processing
-        with pytest.raises(Exception):  # Will fail due to no mock, but validates processing
-            try:
-                data.subreddit("r/python")
-            except Exception:
-                pass  # Expected since no mock response
+        subreddit_name = "python"
+        mock_response = {
+            "name": "python",
+            "title": "Python",
+            "active_users": 1000,
+            "members": 500000
+        }
+        
+        responses.add(
+            responses.GET,
+            "https://api.popcat.xyz/subreddit",
+            json=mock_response,
+            status=200
+        )
+        
+        # Test with r/ prefix - should be stripped
+        result = data.subreddit("r/python")
+        assert result["name"] == "python"
 
 
 if __name__ == "__main__":

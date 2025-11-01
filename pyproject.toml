@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "popcat-py"
+name = "pop-wrapper"
 version = "1.0.0"
 description = "A comprehensive Python wrapper for the Popcat API"
 readme = "README.md"
@@ -65,10 +65,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/LandWarderer2772/popcat.py"
+Homepage = "https://github.com/LandWarderer2772/pop-wrapper"
 Documentation = "https://popcat.readthedocs.io/"
-Repository = "https://github.com/LandWarderer2772/popcat.py"
-"Bug Tracker" = "https://github.com/LandWarderer2772/popcat.py/issues"
+Repository = "https://github.com/LandWarderer2772/pop-wrapper"
+"Bug Tracker" = "https://github.com/LandWarderer2772/pop-wrapper/issues"
 
 [tool.setuptools]
 package-dir = {"" = "."}

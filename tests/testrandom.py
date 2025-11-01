@@ -72,7 +72,7 @@ def test_live_api_calls():
 
 def main():
     """Run all tests."""
-    print("🧪 Testing popcat.py Installation\n")
+    print("🧪 Testing pop-wrapper Installation\n")
     
     # Test 1: Import
     if not test_import():

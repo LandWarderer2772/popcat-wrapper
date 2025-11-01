@@ -5,6 +5,8 @@ Tests for image manipulation functions.
 import unittest
 from unittest.mock import patch, Mock
 from popcat import image
+import pytest
+import responses
 
 
 class TestImageManipulation:

@@ -1,5 +1,5 @@
 """
-popcat.py - Popcat API Python Wrapper
+pop-wrapper - Popcat API Python Wrapper
 
 A comprehensive Python wrapper for the Popcat API (https://popcat.xyz/api).
 Provides access to over 60 endpoints including image manipulation, meme generation,
@@ -31,7 +31,7 @@ __version__ = "1.0.0"
 __author__ = "land_lmao"
 __email__ = "mh3as81gb@mozmail.com"
 __description__ = "A comprehensive Python wrapper for the Popcat API"
-__url__ = "https://github.com/LandWarderer2772/popcat.py"
+__url__ = "https://github.com/LandWarderer2772/pop-wrapper"
 
 # Import all modules for easy access
 from .image import *

@@ -5,6 +5,8 @@ Tests for meme generation functions.
 import unittest
 from unittest.mock import patch, Mock
 from popcat import meme
+import pytest
+import responses
 
 
 class TestMemeGeneration:

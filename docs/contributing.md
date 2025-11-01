@@ -13,8 +13,8 @@ We welcome contributions to Popcat.py! Here's how you can help.
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/LandWarderer2772/popcat.py.git
-   cd popcat.py
+   git clone https://github.com/LandWarderer2772/pop-wrapper.git
+   cd pop-wrapper
    ```
 
 2. **Create a virtual environment**:
@@ -260,7 +260,7 @@ For maintainers:
 
 ## Getting Help
 
-- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/popcat.py/issues)
+- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/pop-wrapper/issues)
 - **Discord**: Contact land_lmao
 - **Email**: mh3as81gb@mozmail.com
 
@@ -276,4 +276,4 @@ Contributors will be:
 - **Mentioned in release notes**
 - **Given credit in documentation**
 
-Thank you for contributing to popcat.py! 🎉
+Thank you for contributing to pop-wrapper! 🎉

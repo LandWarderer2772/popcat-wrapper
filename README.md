@@ -1,6 +1,6 @@
-# popcat.py
+# pop-wrapper
 
-[![PyPI version](https://badge.fury.io/py/popcat-py.svg)](https://badge.fury.io/py/popcat-py)
+[![PyPI version](https://badge.fury.io/py/pop-wrapper.svg)](https://badge.fury.io/py/pop-wrapper)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,14 +11,14 @@ A comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) prov
 ### Installation
 
 ```bash
-pip install popcat-py
+pip install pop-wrapper
 ```
 
 ## Installation from Source
 
 ```bash
-git clone https://github.com/LandWarderer2772/popcat.py.git
-cd popcat.py
+git clone https://github.com/LandWarderer2772/pop-wrapper.git
+cd pop-wrapper
 
 ### Basic Usage
 
@@ -329,11 +329,11 @@ print(f"Clicks: {info['clicks']}")
 
 ```bash
 # Install from PyPI
-pip install popcat-py
+pip install pop-wrapper
 
 # Install from source
-git clone https://github.com/LandWarderer2772/popcat.py.git
-cd popcat.py
+git clone https://github.com/LandWarderer2772/pop-wrapper.git
+cd pop-wrapper
 pip install -e .
 ```
 
@@ -341,10 +341,10 @@ pip install -e .
 
 ```bash
 # For development
-pip install popcat-py[dev]
+pip install pop-wrapper[dev]
 
 # For testing
-pip install popcat-py[test]
+pip install pop-wrapper[test]
 ```
 
 ## Usage Examples
@@ -528,8 +528,8 @@ We welcome contributions. Please follow these guidelines:
 
 ```bash
 # Clone the repository
-git clone https://github.com/LandWarderer2772/popcat.py.git
-cd popcat.py
+git clone https://github.com/LandWarderer2772/pop-wrapper.git
+cd pop-wrapper
 
 # Create virtual environment
 python -m venv venv
@@ -627,11 +627,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- **PyPI**: https://pypi.org/project/popcat-py/
-- **GitHub**: https://github.com/LandWarderer2772/popcat.py
-- **Documentation**: https://popcat-py.readthedocs.io/
+- **PyPI**: https://pypi.org/project/pop-wrapper/
+- **GitHub**: https://github.com/LandWarderer2772/pop-wrapper
+- **Documentation**: https://pop-wrapper.readthedocs.io/
 - **Popcat API**: https://popcat.xyz/api
-- **Issues**: https://github.com/LandWarderer2772/popcat.py/issues
+- **Issues**: https://github.com/LandWarderer2772/pop-wrapper/issues
 
 ## Support
 
