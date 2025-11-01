@@ -5,7 +5,7 @@
 Install the package using pip:
 
 ```bash
-pip install popcat.py
+pip install popcat-py
 ```
 
 ## Basic Usage

@@ -41,7 +41,7 @@ jail_image = popcat.jail("https://example.com/image.png")
 ## Installation
 
 ```bash
-pip install popcat.py
+pip install popcat-py
 ```
 
 ## Indices and tables

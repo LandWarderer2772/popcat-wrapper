@@ -1,6 +1,6 @@
 # popcat.py
 
-[![PyPI version](https://badge.fury.io/py/popcat.py.svg)](https://badge.fury.io/py/popcat.py)
+[![PyPI version](https://badge.fury.io/py/popcat-py.svg)](https://badge.fury.io/py/popcat-py)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +11,7 @@ A comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) prov
 ### Installation
 
 ```bash
-pip install popcat.py
+pip install popcat-py
 ```
 
 ## Installation from Source
@@ -329,7 +329,7 @@ print(f"Clicks: {info['clicks']}")
 
 ```bash
 # Install from PyPI
-pip install popcat.py
+pip install popcat-py
 
 # Install from source
 git clone https://github.com/LandWarderer2772/popcat.py.git
@@ -341,10 +341,10 @@ pip install -e .
 
 ```bash
 # For development
-pip install popcat.py[dev]
+pip install popcat-py[dev]
 
 # For testing
-pip install popcat.py[test]
+pip install popcat-py[test]
 ```
 
 ## Usage Examples
@@ -627,7 +627,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- **PyPI**: https://pypi.org/project/popcat.py/
+- **PyPI**: https://pypi.org/project/popcat-py/
 - **GitHub**: https://github.com/LandWarderer2772/popcat.py
 - **Documentation**: https://popcat-py.readthedocs.io/
 - **Popcat API**: https://popcat.xyz/api

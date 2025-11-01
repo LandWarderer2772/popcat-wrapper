@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "popcat.py"
+name = "popcat-py"
 version = "1.0.0"
 description = "A comprehensive Python wrapper for the Popcat API"
 readme = "README.md"
