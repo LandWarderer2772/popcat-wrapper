@@ -1,10 +1,10 @@
 """
-Test cases for data API functions.
+Tests for data module functions.
 """
 
-import pytest
-import responses
-from popcatapi_wrapper import data
+import unittest
+from unittest.mock import patch, Mock
+from popcat import data
 
 
 class TestDataAPIs:

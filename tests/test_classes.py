@@ -1,10 +1,13 @@
 """
-Test cases for specialized classes (CodeClient and Shortener).
+Tests for specialized classes (CodeClient and Shortener).
 """
+
+import unittest
+from unittest.mock import patch, Mock
+from popcat.classes import CodeClient, Shortener
 
 import pytest
 import responses
-from popcatapi_wrapper.classes import CodeClient, Shortener
 
 
 class TestCodeClient:

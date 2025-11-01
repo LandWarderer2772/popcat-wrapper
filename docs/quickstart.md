@@ -5,7 +5,7 @@
 Install the package using pip:
 
 ```bash
-pip install popcatapi-wrapper
+pip install popcat.py
 ```
 
 ## Basic Usage
@@ -13,7 +13,7 @@ pip install popcatapi-wrapper
 Import the package and start using the API:
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 
 # Your first meme
 meme_url = popcat.drake("Regular APIs", "Popcat API")

@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "popcatapi-wrapper"
+name = "popcat.py"
 version = "1.0.0"
 description = "A comprehensive Python wrapper for the Popcat API"
 readme = "README.md"
@@ -65,18 +65,17 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/LandWarderer2772/popcatapi-wrapper"
-Documentation = "https://popcatapi-wrapper.readthedocs.io/"
-Repository = "https://github.com/LandWarderer2772/popcatapi-wrapper"
-"Bug Tracker" = "https://github.com/LandWarderer2772/popcatapi-wrapper/issues"
-"Popcat API" = "https://popcat.xyz/api"
+Homepage = "https://github.com/LandWarderer2772/popcat.py"
+Documentation = "https://popcat.readthedocs.io/"
+Repository = "https://github.com/LandWarderer2772/popcat.py"
+"Bug Tracker" = "https://github.com/LandWarderer2772/popcat.py/issues"
 
 [tool.setuptools]
 package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["popcatapi_wrapper*"]
+include = ["popcat*"]
 exclude = ["tests*"]
 
 [tool.black]
@@ -124,7 +123,7 @@ markers = [
 ]
 
 [tool.coverage.run]
-source = ["popcatapi_wrapper"]
+source = ["popcat"]
 omit = [
     "*/tests/*",
     "*/test_*",

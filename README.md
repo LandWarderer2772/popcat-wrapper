@@ -1,6 +1,6 @@
-# PopcatAPI Wrapper
+# popcat.py
 
-[![PyPI version](https://badge.fury.io/py/popcatapi-wrapper.svg)](https://badge.fury.io/py/popcatapi-wrapper)
+[![PyPI version](https://badge.fury.io/py/popcat.py.svg)](https://badge.fury.io/py/popcat.py)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,32 +11,22 @@ A comprehensive Python wrapper for the [Popcat API](https://popcat.xyz/api) prov
 ### Installation
 
 ```bash
-pip install popcatapi-wrapper
+pip install popcat.py
 ```
+
+## Installation from Source
+
+```bash
+git clone https://github.com/LandWarderer2772/popcat.py.git
+cd popcat.py
 
 ### Basic Usage
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 
 # Generate a meme
 drake_meme = popcat.drake("Using other APIs", "Using Popcat API")
-print(drake_meme)  # Returns image URL
-
-# Get weather data  
-weather = popcat.weather("London")
-print(weather['temperature'])  # Current temperature
-
-# Apply image filter
-jail_image = popcat.jail("https://example.com/image.png")
-print(jail_image)  # Returns processed image URL
-
-# Get random content
-joke = popcat.joke()
-fact = popcat.fact()
-print(f"Joke: {joke}")
-print(f"Fact: {fact}")
-```
 
 ## Features
 
@@ -339,11 +329,11 @@ print(f"Clicks: {info['clicks']}")
 
 ```bash
 # Install from PyPI
-pip install popcatapi-wrapper
+pip install popcat.py
 
 # Install from source
-git clone https://github.com/example/popcatapi-wrapper.git
-cd popcatapi-wrapper
+git clone https://github.com/LandWarderer2772/popcat.py.git
+cd popcat.py
 pip install -e .
 ```
 
@@ -351,10 +341,10 @@ pip install -e .
 
 ```bash
 # For development
-pip install popcatapi-wrapper[dev]
+pip install popcat.py[dev]
 
 # For testing
-pip install popcatapi-wrapper[test]
+pip install popcat.py[test]
 ```
 
 ## Usage Examples
@@ -363,7 +353,11 @@ pip install popcatapi-wrapper[test]
 
 ```python
 import discord
-import popcatapi_wrapper as popcat
+import popcat
+
+```python
+import discord
+import popcat
 
 @client.command()
 async def meme(ctx, *, text):
@@ -392,7 +386,7 @@ async def weather(ctx, *, location):
 
 ```python
 from flask import Flask, render_template, request
-import popcatapi_wrapper as popcat
+import popcat
 
 app = Flask(__name__)
 
@@ -426,7 +420,7 @@ def random_content():
 ### Data Analysis
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 import pandas as pd
 
 # Analyze GitHub users
@@ -479,7 +473,7 @@ The Popcat API may have rate limits. For production applications:
 
 ```python
 import time
-import popcatapi_wrapper as popcat
+import popcat
 
 def rate_limited_request(func, *args, delay=1, **kwargs):
     """Make rate-limited API requests"""
@@ -502,7 +496,7 @@ meme = rate_limited_request(popcat.drake, "Fast requests", "Rate limited request
 The package includes comprehensive error handling:
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 
 try:
     # Invalid image URL
@@ -534,8 +528,8 @@ We welcome contributions. Please follow these guidelines:
 
 ```bash
 # Clone the repository
-git clone https://github.com/LandWarderer2772/popcatapi-wrapper.git
-cd popcatapi-wrapper
+git clone https://github.com/LandWarderer2772/popcat.py.git
+cd popcat.py
 
 # Create virtual environment
 python -m venv venv
@@ -592,7 +586,7 @@ python -m pytest
 python -m pytest tests/test_image.py
 
 # Run with coverage
-python -m pytest --cov=popcatapi_wrapper
+python -m pytest --cov=popcat
 
 # Run integration tests (requires internet)
 python -m pytest tests/integration/
@@ -604,13 +598,13 @@ We use Black for code formatting and flake8 for linting:
 
 ```bash
 # Format code
-black popcatapi_wrapper/
+black popcat/
 
 # Check linting
-flake8 popcatapi_wrapper/
+flake8 popcat/
 
 # Type checking
-mypy popcatapi_wrapper/
+mypy popcat/
 ```
 
 ## Changelog
@@ -633,11 +627,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- **PyPI**: https://pypi.org/project/popcatapi-wrapper/
-- **GitHub**: https://github.com/LandWarderer2772/popcatapi-wrapper
-- **Documentation**: https://popcatapi-wrapper.readthedocs.io/
+- **PyPI**: https://pypi.org/project/popcat.py/
+- **GitHub**: https://github.com/LandWarderer2772/popcat.py
+- **Documentation**: https://popcat-py.readthedocs.io/
 - **Popcat API**: https://popcat.xyz/api
-- **Issues**: https://github.com/LandWarderer2772/popcatapi-wrapper/issues
+- **Issues**: https://github.com/LandWarderer2772/popcat.py/issues
 
 ## Support
 

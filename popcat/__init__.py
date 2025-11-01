@@ -1,12 +1,12 @@
 """
-Popcat API Python Wrapper
+popcat.py - Popcat API Python Wrapper
 
 A comprehensive Python wrapper for the Popcat API (https://popcat.xyz/api).
 Provides access to over 60 endpoints including image manipulation, meme generation,
 data retrieval, text utilities, and more.
 
 Example:
-    import popcatapi_wrapper as popcat
+    import popcat
     
     # Generate a meme
     drake_meme = popcat.drake("Regular APIs", "Popcat API")
@@ -31,7 +31,7 @@ __version__ = "1.0.0"
 __author__ = "land_lmao"
 __email__ = "mh3as81gb@mozmail.com"
 __description__ = "A comprehensive Python wrapper for the Popcat API"
-__url__ = "https://github.com/LandWarderer2772/popcatapi-wrapper"
+__url__ = "https://github.com/LandWarderer2772/popcat.py"
 
 # Import all modules for easy access
 from .image import *
@@ -42,7 +42,7 @@ from .random import *
 from .utilities import *
 from .classes import *
 
-# Define what gets imported with "from popcatapi_wrapper import *"
+# Define what gets imported with "from popcat import *"
 __all__ = [
     # Image manipulation functions
     'jail', 'blur', 'invert', 'greyscale', 'drip', 'clown', 'colorify', 

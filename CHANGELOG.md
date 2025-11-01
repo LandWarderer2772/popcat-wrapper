@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-09-30
 
 ### Added
-- Initial release of PopcatAPI Wrapper
+- Initial release of popcat.py
 - Complete implementation of all 63+ Popcat API endpoints
 - Modular package structure with 7 main modules
 - Comprehensive error handling with descriptive messages

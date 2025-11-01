@@ -1,10 +1,10 @@
 """
-Test cases for image manipulation functions.
+Tests for image manipulation functions.
 """
 
-import pytest
-import responses
-from popcatapi_wrapper import image
+import unittest
+from unittest.mock import patch, Mock
+from popcat import image
 
 
 class TestImageManipulation:

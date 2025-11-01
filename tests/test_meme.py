@@ -1,10 +1,10 @@
 """
-Test cases for meme generation functions.
+Tests for meme generation functions.
 """
 
-import pytest
-import responses
-from popcatapi_wrapper import meme
+import unittest
+from unittest.mock import patch, Mock
+from popcat import meme
 
 
 class TestMemeGeneration:

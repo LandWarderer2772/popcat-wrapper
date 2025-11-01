@@ -2,7 +2,7 @@ include README.md
 include LICENSE
 include MANIFEST.in
 include pyproject.toml
-recursive-include popcatapi_wrapper *.py
+recursive-include popcat *.py
 recursive-exclude tests *.py
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]

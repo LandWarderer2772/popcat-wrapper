@@ -6,7 +6,7 @@ import sys
 def test_import():
     """Test that the package imports correctly."""
     try:
-        import popcatapi_wrapper as popcat
+        import popcat
         print("✅ Package import successful")
         print(f"📦 Version: {popcat.__version__}")
         print(f"👤 Author: {popcat.__author__}")
@@ -18,7 +18,7 @@ def test_import():
 def test_basic_functions():
     """Test basic functions without making API calls."""
     try:
-        import popcatapi_wrapper as popcat
+        import popcat
         
         # Test that functions exist
         functions_to_test = [
@@ -50,7 +50,7 @@ def test_basic_functions():
 def test_live_api_calls():
     """Test actual API calls (optional - requires internet)."""
     try:
-        import popcatapi_wrapper as popcat
+        import popcat
         
         print("\n🌐 Testing live API calls...")
         
@@ -72,7 +72,7 @@ def test_live_api_calls():
 
 def main():
     """Run all tests."""
-    print("🧪 Testing PopcatAPI Wrapper Installation\n")
+    print("🧪 Testing popcat.py Installation\n")
     
     # Test 1: Import
     if not test_import():

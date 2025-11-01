@@ -9,7 +9,7 @@ Comprehensive examples for using PopcatAPI Wrapper in real applications.
 ```python
 import discord
 from discord.ext import commands
-import popcatapi_wrapper as popcat
+import popcat
 
 bot = commands.Bot(command_prefix='!')
 
@@ -85,7 +85,7 @@ async def ship(ctx, user1: discord.Member, user2: discord.Member):
 
 ```python
 from flask import Flask, jsonify, request
-import popcatapi_wrapper as popcat
+import popcat
 
 app = Flask(__name__)
 
@@ -132,7 +132,7 @@ if __name__ == '__main__':
 ```python
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import popcatapi_wrapper as popcat
+import popcat
 
 app = FastAPI(title="PopcatAPI Wrapper API")
 
@@ -175,7 +175,7 @@ async def get_weather(location: str):
 ### GitHub User Analysis
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -235,7 +235,7 @@ print(results)
 ### Weather Dashboard
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 import streamlit as st
 import plotly.graph_objects as go
 
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 ### Daily Content Generator
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 import schedule
 import time
 from datetime import datetime
@@ -337,7 +337,7 @@ while True:
 ### Bulk Image Processing
 
 ```python
-import popcatapi_wrapper as popcat
+import popcat
 import os
 from concurrent.futures import ThreadPoolExecutor
 import time

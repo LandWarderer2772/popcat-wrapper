@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'PopcatAPI Wrapper'
+project = 'popcat.py'
 copyright = '2025, land_lmao'
 author = 'land_lmao'
 release = '1.0.0'
@@ -43,7 +43,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_title = 'PopcatAPI Wrapper Documentation'
+html_title = 'popcat.py Documentation'
 
 # Theme options
 html_theme_options = {
@@ -94,9 +94,9 @@ intersphinx_mapping = {
 }
 
 # OpenGraph settings
-ogp_site_url = 'https://popcatapi-wrapper.readthedocs.io/'
+ogp_site_url = 'https://popcat.readthedocs.io/'
 ogp_description_length = 200
-ogp_site_name = 'PopcatAPI Wrapper Documentation'
+ogp_site_name = 'popcat.py Documentation'
 ogp_type = 'website'
 
 # Copy button settings

@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome contributions to the PopcatAPI Wrapper! Here's how you can help.
+We welcome contributions to Popcat.py! Here's how you can help.
 
 ## Development Setup
 
@@ -13,8 +13,8 @@ We welcome contributions to the PopcatAPI Wrapper! Here's how you can help.
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/LandWarderer2772/popcatapi-wrapper.git
-   cd popcatapi-wrapper
+   git clone https://github.com/LandWarderer2772/popcat.py.git
+   cd popcat.py
    ```
 
 2. **Create a virtual environment**:
@@ -47,17 +47,9 @@ We use several tools to maintain code quality:
 Run these before submitting:
 
 ```bash
-# Format code
-black popcatapi_wrapper/ tests/
-
-# Check linting
-flake8 popcatapi_wrapper/ tests/
-
-# Type checking
-mypy popcatapi_wrapper/
-
-# Run tests
-pytest tests/ -v
+black popcat/ tests/
+   flake8 popcat/ tests/
+   pytest
 ```
 
 ### Adding New Endpoints
@@ -151,7 +143,7 @@ pytest
 pytest tests/test_image.py
 
 # Run with coverage
-pytest --cov=popcatapi_wrapper
+pytest --cov=popcat
 
 # Run integration tests (requires internet)
 pytest tests/integration/ -m integration
@@ -194,8 +186,8 @@ Run integration tests with: `pytest -m integration`
 3. **Test your changes**:
    ```bash
    pytest tests/
-   black popcatapi_wrapper/ tests/
-   flake8 popcatapi_wrapper/ tests/
+   black popcat/ tests/
+   flake8 popcat/ tests/
    ```
 
 4. **Commit with clear messages**:
@@ -268,7 +260,7 @@ For maintainers:
 
 ## Getting Help
 
-- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/popcatapi-wrapper/issues)
+- **Open an issue**: For bugs or feature requests on [GitHub](https://github.com/LandWarderer2772/popcat.py/issues)
 - **Discord**: Contact land_lmao
 - **Email**: mh3as81gb@mozmail.com
 
@@ -284,4 +276,4 @@ Contributors will be:
 - **Mentioned in release notes**
 - **Given credit in documentation**
 
-Thank you for contributing to PopcatAPI Wrapper! 🎉
+Thank you for contributing to popcat.py! 🎉
